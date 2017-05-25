@@ -106,35 +106,35 @@ At the end of the process, the vehicle was able to drive autonomously around the
 
 #### 2. Final Model Architecture
 
-Below is a visualization of the final model architecture (model.py lines 122-141)
+Below is a visualization of the final model architecture (model.py lines 122-141)  
 | Layer         		|     Description	        					|
-|:---------------------:|:---------------------------------------------:|
+|:-----------------:|:---------------------------------:|
 | Input         		| 64x64x3 YUV image   							|
-| Convolution 5x5      	| 1x1 stride, same padding                   	|
-| ELU					|												|
-| Dropout   			|												|
-| Convolution 5x5      	| 1x1 stride, same padding                   	|
-| ELU					|												|
-| Dropout   			|												|
-| Convolution 5x5      	| 1x1 stride, same padding                   	|
-| ELU					|												|
-| Dropout   			|												|
-| Convolution 5x5      	| 1x1 stride, same padding                   	|
-| ELU					|												|
-| Dropout   			|												|
-| Convolution 5x5      	| 1x1 stride, same padding                   	|
-| ELU					|												|
-| Dropout   			|												|
-||
-| Flattening        	|                                				|
-|                                                       				|
-| Dropout   			|												|
+| Convolution 5x5  	| 1x1 stride, same padding         	|
+| ELU				       	|									             			|
+| Dropout   	   		|						             						|
+| Convolution 5x5  	| 1x1 stride, same padding         	|
+| ELU					      |								             				|
+| Dropout   		  	|					             							|
+| Convolution 5x5  	| 1x1 stride, same padding         	|
+| ELU				       	|									             			|
+| Dropout   		  	|					             							|
+| Convolution 5x5  	| 1x1 stride, same padding         	|
+| ELU				       	|							             					|
+| Dropout   		  	|						            						|
+| Convolution 5x5   | 1x1 stride, same padding         	|
+| ELU					      |								             				|
+| Dropout   		  	|								            				|
+|                   |                                   |
+| Flattening       	|                              			|
+|                   |                           				|
+| Dropout   			  |							             					|
 | Fully connected		|                  				    			|
 | Fully connected		|                  				    			|
 | Fully connected		|                  				    			|
-| Dropout   			|												|
-|                                                          				|
-| Output				|                                               |
+| Dropout   			  |							            					|
+|                   |                            				|
+| Output				    |                                   |
 
 #### 3. Creation of the Training Set & Training Process
 
