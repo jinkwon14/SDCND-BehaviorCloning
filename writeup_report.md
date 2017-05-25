@@ -97,8 +97,8 @@ Training images were prepared in the following manner:
 
 The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track. Two most troubling sections are shown below.
 
-![alt text][./report_img/image1.png]
-![alt text][./report_img/image2.png]
+![alt text](./report_img/image1.png)
+![alt text](./report_img/image2.png)
 
 In order to "teach" the vehicle how to behave in the troubling sections, more driving samples were added by repeatedly running the simulator and recording the driving behaviors in the sections of interest.
 
@@ -140,12 +140,12 @@ Below is a visualization of the final model architecture (model.py lines 122-141
 
 The training data was records of a vehicle driving closely to the center of the road:
 
-![alt text][./report_img/center.gif]
+![alt text](./report_img/center.gif)
 
 I then recorded the vehicle recovering from the peripheries of the track, as well as making sharp turns toward the track at the troubling regions:
 
-![alt text][./report_img/sharp1.gif]
-![alt text][./report_img/sharp2.gif]
+![alt text](./report_img/sharp1.gif)
+![alt text](./report_img/sharp2.gif)
 
 As adding these data significanly improved the vehicle driving on the track, I added more recovery data as soon as I spotted a region where the vehicle drove off track.
 
