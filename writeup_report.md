@@ -106,7 +106,8 @@ At the end of the process, the vehicle was able to drive autonomously around the
 
 #### 2. Final Model Architecture
 
-Below is a visualization of the final model architecture (model.py lines 122-141)  
+Below is a visualization of the final model architecture (model.py lines 122-141)
+
 | Layer         		|     Description	        					|
 |:-----------------:|:---------------------------------:|
 | Input         		| 64x64x3 YUV image   							|
@@ -135,6 +136,7 @@ Below is a visualization of the final model architecture (model.py lines 122-141
 | Dropout   			  |							            					|
 |                   |                            				|
 | Output				    |                                   |
+
 
 #### 3. Creation of the Training Set & Training Process
 
